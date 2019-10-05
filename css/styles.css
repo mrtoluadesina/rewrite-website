@@ -84,3 +84,9 @@ footer {
     width: 160px;
   }
 }
+
+@media screen and (min-width: 980px) {
+  main {
+    width: 75%;
+  }
+}
