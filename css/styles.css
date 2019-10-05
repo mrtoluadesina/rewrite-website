@@ -62,3 +62,25 @@ footer {
     padding: 0 3rem;
   }
 }
+
+@media screen and (min-width: 780px) {
+  main {
+    padding: 10% 0 10% 10%;
+  }
+  main p {
+    font-size: 33px;
+    line-height: 55px;
+  }
+  footer {
+    bottom: 3.5rem;
+    padding: 0 10%;
+  }
+  .footer p {
+    font-size: 24px;
+    align-self: flex-end;
+  }
+
+  .footer img {
+    width: 160px;
+  }
+}
